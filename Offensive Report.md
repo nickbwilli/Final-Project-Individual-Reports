@@ -113,11 +113,14 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   -  
   ![image](https://user-images.githubusercontent.com/90221329/159130738-ecb1f48e-3915-4ef2-8020-bffe4ec454ff.png)
 
-  
    - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+      - Exploited a weak password to access michael's account and then searched for the flag.
+      - grep -R flag1
+      
+  - `flag2.txt`: {fc3fd58dcdad9ab23faca6e9a36e581c}
+  -  flag2.jpg
+![image](https://user-images.githubusercontent.com/90221329/159130917-3518bbaa-dd04-43c8-b506-fdfe57629808.png)
+
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - _TODO: SSH into the server as Michael and searched for the flag.
+      - _TODO: cat flag2.txt
