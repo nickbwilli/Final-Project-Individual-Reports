@@ -122,5 +122,5 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 ![image](https://user-images.githubusercontent.com/90221329/159130917-3518bbaa-dd04-43c8-b506-fdfe57629808.png)
 
     - **Exploit Used**
-      - _TODO: SSH into the server as Michael and searched for the flag.
-      - _TODO: cat flag2.txt
+      - SSH into the server as Michael and searched for the flag.
+      - cat flag2.txt
