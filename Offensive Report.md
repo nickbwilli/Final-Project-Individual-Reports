@@ -109,7 +109,9 @@ _TODO: Fill out the details below. Include screenshots where possible._
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
   - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
-  Flag1close up.JPG
+  -  Flag1close up.JPG
+  ![image](https://user-images.githubusercontent.com/90221329/159130738-ecb1f48e-3915-4ef2-8020-bffe4ec454ff.png)
+
   
    - **Exploit Used**
       - _TODO: Identify the exploit used_
