@@ -88,13 +88,13 @@ PORT    STATE SERVICE     VERSION
 MAC Address: 00:15:5D:00:04:10 (Microsoft)
 Service Info: Host: TARGET1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
+
 
 The following vulnerabilities were identified on each target:
 - Target 1
-  - List of
-  - Critical
-  - Vulnerabilities
+  - Vulnerability 1: 
+  - Vulnerability 2:
+  - Vulnerability 3:
 
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
