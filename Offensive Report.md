@@ -92,11 +92,16 @@ Service Info: Host: TARGET1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 The following vulnerabilities were identified on each target:
 - Target 1
-  - Vulnerability 1: 
-  - Vulnerability 2:
-  - Vulnerability 3:
+  - Vulnerability 1: Guessed weak password for Michael.
+      CVE - 521: Weak Password Requirements
+                  The user was able to use their name as a password which is too simple to crack with a number of brute forcing tools. 
+  - Vulnerability 2: SQL server password exposed in wp_config.php file in plain text.
+      CWE - 200: Exposure of Sensitive Information to an Unauthorized Actor
+                  The wordpress server kept the password in plaintext so that unauthorized users could find it and exploit it.
+  - Vulnerability 3: Python code execution allowed privilege escalation.
+      CWE - 269: Improper Privilege Management
+                  The user Steven had python executiion privileges allowing us to exploit a tty shell that gave us root privileges.
 
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
 ### Exploitation
 _TODO: Fill out the details below. Include screenshots where possible._
@@ -104,7 +109,8 @@ _TODO: Fill out the details below. Include screenshots where possible._
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
   - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
-    - **Exploit Used**
+   https://github.com/nickbwilli/Bootcamp-Final-Project/blob/e607e5ca6cfcc779d8b6aaa7b8fe2ded56be124f/Flag1close%20up.JPG
+   - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
