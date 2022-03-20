@@ -1,3 +1,2 @@
 # Bootcamp-Final-Project
-
-See Offensive and Defensive Reports above.
+These are screenshots from my engagement. Also see above the Offensive and Defensive Reports.
