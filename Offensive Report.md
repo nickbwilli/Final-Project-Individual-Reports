@@ -113,14 +113,24 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   -  
   ![image](https://user-images.githubusercontent.com/90221329/159130738-ecb1f48e-3915-4ef2-8020-bffe4ec454ff.png)
 
-   - **Exploit Used**
-      - Exploited a weak password to access michael's account and then searched for the flag.
+  - **Exploit Used**
+     This flag was discovered by first using SSH to access Michael’s account due to guessing his weak password, then navigating into the /var/www/html directory, then      running a grep command to search for flag1.
+  - **Commands:**
+    - ssh michael@192.168.1.110
+     - cd /var/www/html
       - grep -R flag1
+
       
   - `flag2.txt`: {fc3fd58dcdad9ab23faca6e9a36e581c}
   -  flag2.jpg
 ![image](https://user-images.githubusercontent.com/90221329/159130917-3518bbaa-dd04-43c8-b506-fdfe57629808.png)
 
     - **Exploit Used**
-      - SSH into the server as Michael and searched for the flag.
-      - cat flag2.txt
+      - This flag was discovered by SSH into the server as Michael. Then navigating to the /var/www directory. Then using the cat command to show the flag file.
+      - **Commands:**
+         - ssh michael@192.168.1.110
+         - cd /var/www
+         - ls
+         - cat flag2.txt
+         
+         
