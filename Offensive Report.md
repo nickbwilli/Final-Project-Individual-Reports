@@ -123,6 +123,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       
   - `flag2.txt`: {fc3fd58dcdad9ab23faca6e9a36e581c}
   -  flag2.jpg
+  -  
 ![image](https://user-images.githubusercontent.com/90221329/159130917-3518bbaa-dd04-43c8-b506-fdfe57629808.png)
 
     - **Exploit Used**
