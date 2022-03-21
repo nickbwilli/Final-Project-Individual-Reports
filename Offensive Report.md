@@ -128,12 +128,12 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   -  
 ![image](https://user-images.githubusercontent.com/90221329/159130917-3518bbaa-dd04-43c8-b506-fdfe57629808.png)
 
-    - **Exploit Used**
+  - **Exploit Used**
       - This flag was discovered by SSH into the server as Michael. Then navigating to the /var/www directory. Then using the cat command to show the flag file.
       - **Commands:**
          - ssh michael@192.168.1.110
-         - cd /var/www
-         - ls
-         - cat flag2.txt
+          - cd /var/www
+           - ls
+            - cat flag2.txt
          
          
