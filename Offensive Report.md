@@ -74,6 +74,8 @@ Nmap done: 256 IP addresses (6 hosts up) scanned in 6.69 seconds
 This scan identifies the services below as potential points of entry:
 - Target 1
 
+
+```bash
 root@Kali:~# nmap -sV 192.168.1.110
 Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-16 18:54 PDT
 Nmap scan report for 192.168.1.110
@@ -87,7 +89,7 @@ PORT    STATE SERVICE     VERSION
 445/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
 MAC Address: 00:15:5D:00:04:10 (Microsoft)
 Service Info: Host: TARGET1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
-
+```
 
 
 The following vulnerabilities were identified on each target:
