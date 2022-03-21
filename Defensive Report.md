@@ -57,8 +57,8 @@ Alert 1 is implemented as follows:
 Alert 2 is implemented as follows:
   - **Metric**: WHEN sum() of http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute
   - **Threshold**: over 3500 for the last minute
-  - **Vulnerability Mitigated**: 
-  - **Reliability**: 
+  - **Vulnerability Mitigated**: This will monitor for DDoS attacks because it will flag excessive request bytes.
+  - **Reliability**: This is relatively reliable because the server shouldnt see massive request amounts during normal activity.
 
 #### Alert 3
   CPU Usage Monitor
@@ -76,11 +76,11 @@ _TODO_:
 
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 - Vulnerability 1
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+  - **Patch**: Brute force attacks could be mitigated by implementing some new rules on the network firewall or server to block a specific IP address after 20 error          attempts in one minute. Also the wordpress server could be changed to lock out any user account that has five               failed login attempts in a row.
+  - **Why It Works**: Either of these patches would stop someone from brute forcing logins.
 - Vulnerability 2
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+  - **Patch**: The server should implement input validation measures to avoid and DDoS attacks.
+  - **Why It Works**: Input validation will help with request size monitoring because it can control request sizes.
 - Vulnerability 3
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+  - **Patch**: Proper authorization and authentication measures should be implemented to better control access. They should also remove any excessive privvileges so that an attacker cant do as much harm on the server.
+  - **Why It Works**: Controlling user accounts and privileges will decrease the ability of an attacker to change the system.
