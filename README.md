@@ -1,5 +1,5 @@
 # Bootcamp-Final-Project
-These are screenshots from my engagement. Also see above the Offensive and Defensive Reports.
+This repository holds all of the screenshots from my engagement. This repository also includes both my Offensive and Defensive Reports.
 
 
 
